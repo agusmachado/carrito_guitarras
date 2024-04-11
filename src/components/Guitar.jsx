@@ -10,7 +10,7 @@ export default function Guitar({guitar, addToCart}) {
         <div className="col-md-6 col-lg-4 my-4 row align-items-center">
                 <div className="col-4">
                     {/* Paso 03: Mostrar la imagen de la guitarra */}
-                    <img className="img-fluid" src={`/img/${image}.jpg`} alt="imagen guitarra" />
+                    <img className="img-fluid" src={`./public/img/${image}.jpg`} alt="imagen guitarra" />
                 </div>
                 <div className="col-8">
                     {/* Paso 04: Mostrar el nombre de la guitarra */}
@@ -18,7 +18,7 @@ export default function Guitar({guitar, addToCart}) {
                     {/* Paso 05: Mostrar la descripción de la guitarra */}
                     <p>{description}</p>
                     {/* Paso 06: Mostrar el precio de la guitarra */}
-                    <p className="fw-black text-primary fs-3">{price}</p>
+                    <p class="fw-black text-primary fs-3">{price}</p>
                     {/* Paso 07: Agregar un botón para agregar la guitarra al carrito */}
                     <button 
                          
