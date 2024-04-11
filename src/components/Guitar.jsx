@@ -18,7 +18,7 @@ export default function Guitar({guitar, addToCart}) {
                     {/* Paso 05: Mostrar la descripción de la guitarra */}
                     <p>{description}</p>
                     {/* Paso 06: Mostrar el precio de la guitarra */}
-                    <p class="fw-black text-primary fs-3">{price}</p>
+                    <p className="fw-black text-primary fs-3">{price}</p>
                     {/* Paso 07: Agregar un botón para agregar la guitarra al carrito */}
                     <button 
                          
