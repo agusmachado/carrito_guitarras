@@ -16,7 +16,7 @@ const cartTotal = cart.reduce( ( total, { quantity, price } ) => total + ( quant
             </div>
             <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
               <div className="carrito">
-                <img className="img-fluid" src="./public/img/carrito.png" alt="imagen carrito" />
+                <img className="img-fluid" src="img/carrito.png" alt="imagen carrito" />
                 <div id="carrito" className="bg-white p-3">
 
                   {/* 2 - Creo un ternario. En caso de que el carrito no tenga ningún elemento, entonces el carrito está vacío. Por el contrario, si el carrito tiene uno o más elementos, muestro los elementos y quito el cartel que dice que el carrito está vacío */}
