@@ -1,9 +1,5 @@
-export default function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart}) {
+export default function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart, cartTotal}) {  
 
-    
-
-// Cálculo del total del carrito      
-const cartTotal = cart.reduce( ( total, { quantity, price } ) => total + ( quantity * price ), 0 )
 
     return (
       <header className="py-5 header">
